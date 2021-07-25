@@ -1,0 +1,36 @@
+ITENS no arquivo do Storybook
+
+
+HOME - do Storybook - arquivo toolkit/uikit
+
+-Alterar logo do perfil do lado do botão "Connect", substituir pelo logo devil ou deixar sem o logo.
+-Menu: alterar cor do background para rosa;
+-Mudar contrato do token, preço do token ---(OK)
+-Mudar logo da cake por Devil
+-mudar links das redes sociais (telegram, twitter)
+-Alterar logo pancake e nome para DevilSwap no topo da página;
+
+
+
+**UIKIT do storybook
+
+*Breadcrumbs - Default : alterar o nome Pancakeswap para DevilSWap
+*Breadcrumbs - Custom Separator : alterar logo da cake e colocar o da devil
+
+*Button - Variants - botão com imagem do logo da cake, alterar para a imagem da devil;
+
+*FaillingBunnies - Default : altearar gif do simbolo cake caindo pelo da devilswap
+
+*Image - Token Images - alterar logo cake (somente 1 imagem) por logo da devil
+*Image - Token Pair Images - alterar par logo cake (2 imagems, uma pequena e outra grande) alterar pelo logo da devil
+
+*Link - Default : alterar somente um emoticon da cake e colocar do token devil;
+
+
+*Slider - Default : alterar se possível o icone de coelho e colocar do devil
+*Slider - Variants: alterar se possível o icone de coelho e colocar do devil
+*Slider - Balance: alterar se possível o icone de coelho e colocar do devil
+
+*Spinner - Default : alterar o gif da panela de cake por imagem da devil
+
+*Svg Icons : Icons - alterar icones da cake pelo da devil (BunnyCards, BunnyPlaceholder, Logo, LogoRound, MedalBronze, MedalGold, MedalPurple, MedalSilver, MedalTeal, NoProfileAvatar, PancakeRound, Pancakes, TeamPlayer, Ticket, TicketRound, TrophyGold)
