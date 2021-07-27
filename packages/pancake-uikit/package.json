@@ -1,14 +1,14 @@
 {
-  "name": "@pancakeswap/uikit",
+  "name": "devilswap-uikit",
   "version": "0.40.4",
-  "description": "Set of UI components for pancake projects",
+  "description": "Set of UI components for devil projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/pancakeswap/pancake-toolkit/tree/master/packages/pancake-uikit",
+  "repository": "https://bitbucket.org/alisson_6523/storie-book/src/master/",
   "license": "MIT",
   "scripts": {
     "start": "yarn storybook",
