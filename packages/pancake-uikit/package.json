@@ -1,6 +1,6 @@
 {
   "name": "devilswap-uikit",
-  "version": "0.40.4",
+  "version": "0.40.5",
   "description": "Set of UI components for devil projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
