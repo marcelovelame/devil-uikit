@@ -7,13 +7,14 @@ import { useMatchBreakpoints } from "../../hooks";
 import Logo from "./components/Logo";
 import Panel from "./components/Panel";
 import UserBlock from "./components/UserBlock";
-import { NavProps } from "./types";
+import { NavProps, background as Fundo } from "./types";
 import Avatar from "./components/Avatar";
 import { MENU_HEIGHT, SIDEBAR_WIDTH_REDUCED, SIDEBAR_WIDTH_FULL } from "./config";
 
 const Wrapper = styled.div`
   position: relative;
   width: 100%;
+  background: ${(props: Fundo) => (props.background ? props.background : "#fff")};
 `;
 
 const StyledNav = styled.nav<{ showMenu: boolean }>`
@@ -74,6 +75,7 @@ const Menu: React.FC<NavProps> = ({
   links,
   profile,
   children,
+  background,
 }) => {
   const { isXl } = useMatchBreakpoints();
   const isMobile = isXl === false;
@@ -114,7 +116,7 @@ const Menu: React.FC<NavProps> = ({
   const homeLink = links.find((link) => link.label === "Home");
 
   return (
-    <Wrapper>
+    <Wrapper background={background}>
       <StyledNav showMenu={showMenu}>
         <Logo
           isPushed={isPushed}

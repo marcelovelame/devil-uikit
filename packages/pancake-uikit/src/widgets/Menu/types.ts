@@ -1,6 +1,10 @@
 import { Colors } from "../../theme/types";
 import { Login } from "../WalletModal/types";
 
+export interface background {
+  background?: string;
+}
+
 export interface Language {
   code: string;
   language: string;
@@ -54,6 +58,7 @@ export interface PanelProps {
   langs: Language[];
   setLang: (lang: Language) => void;
   links: Array<MenuEntry>;
+  background?: string;
 }
 
 export interface NavProps extends PanelProps {
